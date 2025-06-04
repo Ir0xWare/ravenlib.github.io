@@ -54,3 +54,21 @@ body {
     padding-top: 10px;
 }
 
+.wiki-link-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wiki-link {
+    color: #54595d; /* Grey color for unvisited link */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.wiki-link:visited {
+    color: #663399; /* Purple color for visited link */
+}
+
+.wiki-link:hover {
+    text-decoration: underline;
+}
