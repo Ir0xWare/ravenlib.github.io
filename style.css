@@ -1,0 +1,56 @@
+body {
+    background-color: #f8f9fa; /* Light grey background, similar to Wikipedia */
+    font-family: sans-serif;   /* Standard sans-serif font */
+    color: #202122;           /* Dark grey/black text color */
+    margin: 0;
+    padding: 20px; /* Add some padding around the content box */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top if content grows */
+    min-height: calc(100vh - 40px); /* Full viewport height minus padding */
+}
+
+.content-wrapper {
+    background-color: #ffffff; /* White content box */
+    border: 1px solid #a2a9b1; /* Thin grey outline, Wikipedia-like */
+    width: 80%;
+    max-width: 900px; /* Max width for readability */
+    margin: 0 auto; /* Center the box (though flex on body already does this) */
+    padding: 25px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Subtle shadow */
+    border-radius: 2px; /* Slight rounding of corners */
+}
+
+.page-header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eaecf0; /* Light line separating header from content */
+}
+
+#logo {
+    width: 100px; /* Scaled down from original 200x200 */
+    height: 100px;
+    display: block;
+    margin: 0 auto 15px auto; /* Centered, with space below */
+}
+
+.library-title {
+    font-size: 28px; /* Prominent title */
+    font-weight: bold;
+    color: #000000; /* Black text for title */
+    margin: 0 0 5px 0;
+}
+
+.library-subtitle {
+    font-size: 16px; /* Smaller subtitle */
+    color: #54595d;   /* Greyish text for subtitle */
+    margin: 0;
+    font-style: italic;
+}
+
+.main-content {
+    /* Styles for main content area can be added here */
+    padding-top: 10px;
+}
+
