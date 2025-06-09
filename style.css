@@ -55,9 +55,11 @@ body {
 }
 
 .wiki-link-container {
-    text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Optional: space between links */
 }
+
 
 .wiki-link {
     color: #54595d;
